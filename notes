@@ -4,3 +4,22 @@ review git, why its not initializing
 difference between image place css and html
 image not sticking to nav bar
 do you put x icons in html/css?
+use cdn for font awesome
+
+
+
+is appending a new dom node different than adding an element?
+remove a dom node
+why wouldnt we add it to the html
+how do I test to see if a button is firing
+
+
+
+
+(notes from tj)
+
+$('li').append('<strong>test</strong>');
+parameter is available as a variable within function
+
+http://flexboxfroggy.com/
+https://css-tricks.com/all-about-floats/

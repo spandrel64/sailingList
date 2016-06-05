@@ -1,0 +1,100 @@
+body { 
+    background-image: url("http://anf.nu/wp-content/uploads/2012/boss_sailing/anf_boss_sailing_02.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: calibri;   
+}
+
+.layer {
+    background-color: rgba(53, 130, 176, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 50;
+}
+.wrapper {
+  position: absolute;
+  z-index: 100;
+  width: 99%;
+  height: 98%;
+}
+
+.header-row {
+  background-image: url('../images/boat.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 130px;
+}
+  @media screen and (max-width: 700px){
+    .header-row {
+      padding-left: 100px;
+    }
+  }
+
+.header-row h1 {
+  font-size: 4.25em;
+  text-transform: uppercase;
+  font-style: italic;
+}
+  @media screen and (max-width: 700px){
+    .header-row h1 {
+      font-size: 3.75em;
+    }
+  }
+
+.main {
+  color: white; 
+}
+
+.main a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid white;
+    padding: 5px 40px;
+    border-radius: 12px;
+    margin: 0px 0px 10px 0px;
+    display: inline-block;
+}
+
+.main div {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px){
+  .main div {
+    width: 100%;
+    float: none;
+    margin-bottom: 25px;
+  }
+}
+
+.main h2 {
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.main ul {
+  width: 75%;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0px;
+}
+
+.main li {
+  font-size: 1.50em;
+  line-height: 1.50em;
+}
+
+.main i {
+  cursor: pointer;
+}
